@@ -1,3 +1,5 @@
+[//]: # (Image References)
+
 [Fig1]: ./Figures/Fig1.PNG "Unbanlenced dataset"
 [Fig2]: ./Figures/Fig2.jpg "Center lane driving"
 [Fig3]: ./Figures/Fig3.jpg "Recovering driving"
