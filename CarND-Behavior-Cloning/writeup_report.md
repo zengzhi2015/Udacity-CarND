@@ -30,14 +30,16 @@ The rest of this report is orgnized as follows. First, the basic structure of th
 It should be noted that my project includes the following files:
 * [model.py](./model.py) containing the script to create and train the model
 * [drive.py](./drive.py) for driving the car in autonomous mode
-* [model.h5](./model.h5) containing a trained convolution neural network 
+* [model.h5](https://drive.google.com/open?id=0B7q-3T8gmw2oQXBsR0pXX2NUekk) containing a trained convolution neural network 
 * [writeup_report.md](./writeup_report.md) summarizing the results
-* [data.zip](./data.zip) used for training the model
+* [data.zip](https://drive.google.com/open?id=0B7q-3T8gmw2oQzBGU0FqdzJoZ28) used for training the model
+* [video.mp4](./self_driving_car_nanodegree_program 2017_2_4 19_51_34.mp4) the recorded video
 
 The car can be driven autonomously around the track by executing 
 ```
 python drive.py
 ```
+The code is written under Windows environment. Please modify the code if you want to run it under Unix or Linux.
 
 ## II. Model architecture
 
