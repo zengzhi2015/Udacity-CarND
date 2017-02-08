@@ -1,3 +1,10 @@
+[Fig1]: ./Figures/Fig1.PNG "Unbanlenced dataset"
+[Fig2]: ./Figures/Fig2.jpg "Center lane driving"
+[Fig3]: ./Figures/Fig3.jpg "Recovering driving"
+[Fig4]: ./Figures/Fig4.jpg "Minor tuning"
+[Fig5]: ./Figures/Fig5.jpg "Correct v.s. incorrect stages"
+[Fig6]: ./Figures/Fig6.PNG "Banlenced dataset"
+
 # **Behavrioal Cloning Project** 
 
 **by Zhi Zeng**
@@ -143,21 +150,21 @@ The final step was to run the simulator to see how well the car was driving arou
 
 It is found that the quality of the dataset is critical to the performance of the model. Although Uddacity has already provide a sample dataset, it is far from sufficient to training a good model. In my test, it is foud that if one use only the sample dataset for training, the car can do nothing but go straight. This is because the dataset is quite unbanlenced. The following figure shows the distribution of the steering commonds:
 
-![Alt text](Fig1)
+![alt text](Fig1)
 
 Therefore, one has to record not only center lane driving, but also recovering driving as well as minor tuning. 
 
-![Alt text](Fig2)
-![Alt text](Fig3)
-![Alt text](Fig4)
+![alt text](Fig2)
+![alt text](Fig3)
+![alt text](Fig4)
 
 It should be careful that one should not record incorrect behaviors but only the correct ones. For example, as shown in the following figure, if we drive the car in an S shape along a straight road, only the correct stages (marked by the green curves) should be recorded.
 
-![Alt text](Fig5)
+![alt text](Fig5)
 
 Then, the dataset is a balenced one (comparatively speaking). The distribution of the steering commonds would be like this:
 
-![Alt text](Fig6)
+![alt text](Fig6)
 
 Eventhough the dataset is much more balenced, it may not garrentee the performance of the model. There may be spots where the vehicle fell off the track. It shoud be note that, for most cases, this is not because of overfitting, but is due to that the dataset do not cover sufficient modes (or patterns). Therefore, one has to record them many times. Finnaly, I have recorded several rounds of center driving (both clockwise and counter-clockwise along the race) and many recovering cases (especailly near or on the bridges and big turns). My dataset contains 21378 samples in total.
 
@@ -171,12 +178,3 @@ Second, the quantity of the dataset should be large. Otherwise, in the training 
 
 Third, the dropout technique, mirroring samples, using better feature extractor network, and fine tuning of the feature extractor network do not have profound impact on the performance of the model.
 
-
-[//]: # (Image References)
-
-[Fig1]: ./Figures/Fig1.PNG "Unbanlenced dataset"
-[Fig2]: ./Figures/Fig2.jpg "Center lane driving"
-[Fig3]: ./Figures/Fig3.jpg "Recovering driving"
-[Fig4]: ./Figures/Fig4.jpg "Minor tuning"
-[Fig5]: ./Figures/Fig5.jpg "Correct v.s. incorrect stages"
-[Fig6]: ./Figures/Fig6.PNG "Banlenced dataset"
