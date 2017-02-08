@@ -7,7 +7,7 @@
 [Fig5]: ./Figures/Fig5.jpg "Correct v.s. incorrect stages"
 [Fig6]: ./Figures/Fig6.PNG "Banlenced dataset"
 
-# **Behavrioal Cloning Project** 
+# **Behavioral Cloning Project** 
 
 **by Zhi Zeng**
 
