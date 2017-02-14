@@ -160,9 +160,7 @@ Then, I combine the result with the original image (the undistorted image). Here
 
 ## III. Pipeline (video)
 
-In this section, I first wrap up all steps discussed above into a single function. The code for this step is contained in the 42 code cell of the IPython notebook located in "./pipeline.ipynb". Then, I read the frames of a videos one by one and apply the function to each frame. Here's a link to my video result.
-
-![alt text][video1]
+In this section, I first wrap up all steps discussed above into a single function. The code for this step is contained in the 42 code cell of the IPython notebook located in "./pipeline.ipynb". Then, I read the frames of a videos one by one and apply the function to each frame. Here's a [link](https://youtu.be/xdR2qeO9TgM) to my video result.
 
 ---
 
