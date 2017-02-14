@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 [image8]: ./output_images/sliding_windows.png "sliding_windows"
 [image9]: ./output_images/skip_sliding_windows.png "skip_sliding_windows"
 [image10]: ./output_images/result.png "result"
-[video1]: ./project_output.avi "project_output"
+[video1]: https://youtu.be/xdR2qeO9TgM "project_output"
 
 ## I. Camera Calibration
 
